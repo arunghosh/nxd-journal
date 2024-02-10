@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&family=Roboto&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply py-2 px-4 text-white font-normal rounded-md focus:outline-none focus:ring-2 focus:ring-opacity-75;
+  }
+  .btn-primary:disabled {
+    @apply opacity-75 hover:bg-blue-500;
+  }
+  .btn-primary {
+    @apply bg-blue-500 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-400;
+  }
+  textarea {
+    @apply border-solid border rounded-md;
+  }
+}
+
+.handwritten {
+  font-family: 'Merienda', cursive;
+}
+
+.sub-heading {
+  @apply text-blue-400;
+}
+
+body {
+  @apply text-sm;
+  @apply bg-slate-100;
+  font-family: 'Roboto', sans-serif;
+}
+
+input[type=checkbox]:checked+label span:first-of-type {
+	background-color: #10B981;
+	border-color: #10B981;
+	color: #fff;
+}
+
+input[type=checkbox]:checked+label span:nth-of-type(2) {
+	text-decoration: line-through;
+	color: #9CA3AF;
+}
+
+.forloading {
+  @apply text-blue-500;
+  @apply text-green-500;
+}
