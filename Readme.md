@@ -23,7 +23,7 @@ LLMs have enhanced the capabilities of computing devices. So how to use that cap
 Plus it seemed there is a scope for a todo application without backend with data stored only in the user device with the application source open. 
 
 ### Demo link
-https://www.being-self-1acab.web.app
+https://being-self-1acab.web.app
 
 ### To run locally
 1. Clone the repo 
